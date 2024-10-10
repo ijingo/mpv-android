@@ -91,7 +91,7 @@ internal class MPVView(context: Context, attrs: AttributeSet) : BaseMPVView(cont
             MPVLib.setOptionString("vd-lavc-skiploopfilter", "nonkey")
         }
 
-        MPVLib.setOptionString("vo", vo)
+        // MPVLib.setOptionString("vo", vo)
         MPVLib.setOptionString("gpu-context", "androidvk")
         MPVLib.setOptionString("opengl-es", "yes")
         MPVLib.setOptionString("hwdec", hwdec)
